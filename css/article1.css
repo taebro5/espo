@@ -1,0 +1,82 @@
+.article1 {
+    padding: 40px 0 !important;
+}
+
+.a1-wrapper {
+    width: 100%;
+    display: flex;
+    gap: .5rem;
+}
+
+.a1-box {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 20px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, .1);
+    background-color: rgba(255, 255, 255, .8);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    transition: all .3s;
+}
+
+
+.a1-image {
+    margin-bottom: 1.5rem;
+}
+
+.a1-image ion-icon {
+    font-size: 80px;
+}
+
+.a1-text {
+    text-align: center;
+}
+
+.a1-text h1 {
+    color: #444;
+    font-size: 16px;
+    font-family: 'notokr-bold';
+    letter-spacing: -0.04em;
+    margin-bottom: .5rem;
+}
+
+.a1-text p {
+    color: #666;
+    font-size: 15px;
+    line-height: 25px;
+    letter-spacing: -0.04em;
+}
+
+
+/*==================================================*/
+@media (max-width: 850px) {
+    .a1-wrapper {
+        flex-direction: column;
+        gap: .5rem;
+    }
+}
+
+
+@media (max-width: 687px) {
+    .article1 {
+        padding-top: .5rem !important;
+    }
+
+    .a1-box {
+        padding: 40px 20px;
+    }
+}
+
+
+@media (max-width: 400px) {
+    .a1-text h1 {
+        font-size: 18px;
+    }
+
+    .a1-text p {
+        font-size: 15px;
+    }
+}

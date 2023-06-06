@@ -1,0 +1,46 @@
+.article5 {
+    background-color: #fff;
+}
+
+.personal-wrapper {
+    width: 850px;
+    margin-bottom: .5rem;
+}
+
+.personal {
+    padding: 20px 30px;
+    border: 1px solid #ddd;
+    
+}
+
+.personal p {
+    color: #777;
+    font-size: 16px;
+    font-family: 'notokr-regular';
+    line-height: 1.7rem;
+    letter-spacing: -0.03em;
+}
+
+
+
+/*==================================================*/
+@media (max-width: 900px) {
+    .personal {
+        padding: 20px;
+        border: 1px solid #bbb;
+        border-radius: 8px;
+    }
+
+    .personal-wrapper {
+        width: 100%;
+    }
+
+    .personal p {
+        margin-bottom: 1rem;
+    }
+
+    .personal p:nth-child(3) {
+        margin-bottom: 0;
+    }
+}
+

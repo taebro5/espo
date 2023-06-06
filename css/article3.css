@@ -1,0 +1,39 @@
+.article3 {
+    background-color: #f8f8f8;
+}
+
+.a3-top h1 {
+    color: #222;
+    font-size: 25px;
+    font-family: 'notokr-bold';
+    letter-spacing: -0.04em;
+    margin-bottom: 1.5rem;
+    /* animation: blink .5s infinite; */
+}
+
+.a2-box .green-check {
+    font-size: 35px;
+}
+
+.a2-box-green:hover {
+    border: 4px solid #00a86b;
+}
+
+@keyframes blink {
+    0% {opacity: 0;}
+    50% {opacity: 1;}
+    100% {opacity: 0;}
+}
+
+
+/*==================================================*/
+@media (max-width: 600px) {
+    .a2-box .green-check {
+        font-size: 25px;
+    }
+
+    .a3-top h1 {
+        font-size: 20px;
+        margin-bottom: .5rem;
+    }
+}
